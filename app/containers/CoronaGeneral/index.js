@@ -57,13 +57,13 @@ export function CoronaGeneral({
                 <div>
                     <h3 className="text-center mb-3"><FormattedMessage {...messages.world} /></h3>
                     <Row>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.confirmed} />} total={confirmed} loading={loading} colorBg={'info'} colorText={'light'} />
                         </Col>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.deaths} />} total={deaths} loading={loading} colorBg={'info'} colorText={'light'}/>
                         </Col>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.recovered} />} total={recovered} loading={loading} colorBg={'info'} colorText={'light'}/>
                         </Col>
                     </Row>
@@ -71,13 +71,13 @@ export function CoronaGeneral({
                 <div className="mt-5">
                     <h3 className="text-center mb-3"><FormattedMessage {...messages.vietnam} /></h3>
                     <Row>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.confirmed} />} total={confirmedVN} loading={loading} colorBg={'danger'} colorText={'light'}/>
                         </Col>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.deaths} />} total={deathsVN} loading={loading} colorBg={'danger'} colorText={'light'}/>
                         </Col>
-                        <Col xs={12} sm={4}>
+                        <Col xs={12} sm={4} className="pb-3">
                             <CardItem title={<FormattedMessage {...messages.recovered} />} total={recoveredVN} loading={loading} colorBg={'danger'} colorText={'light'}/>
                         </Col>
                     </Row>
