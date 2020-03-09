@@ -1,0 +1,13 @@
+{
+  "app.components.Navbar.header": "Corona",
+  "app.components.Navbar.english": "Tiếng anh",
+  "app.components.Navbar.vietnamese": "Tiếng việt",
+  "app.containers.HomePage.header": "",
+  "app.containers.NotFoundPage.header": "",
+  "app.containers.Corona.refresh": "Làm mới",
+  "app.containers.Corona.confirmed": "Ca nhiễm",
+  "app.containers.Corona.deaths": "Tử vong",
+  "app.containers.Corona.recovered": "Chữa khỏi",
+  "app.containers.Corona.world": "Thế giới",
+  "app.containers.Corona.vietnam": "Việt Nam"
+}

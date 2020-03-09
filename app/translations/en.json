@@ -1,0 +1,13 @@
+{
+  "app.components.Navbar.header": "Corona",
+  "app.components.Navbar.english": "English",
+  "app.components.Navbar.vietnamese": "Vietnamese",
+  "app.containers.HomePage.header": "This is the HomePage container!",
+  "app.containers.NotFoundPage.header": "This is the NotFoundPage container!",
+  "app.containers.Corona.refresh": "Refresh",
+  "app.containers.Corona.confirmed": "Confirmed",
+  "app.containers.Corona.deaths": "Deaths",
+  "app.containers.Corona.recovered": "Recovered",
+  "app.containers.Corona.world": "World",
+  "app.containers.Corona.vietnam": "Viet Nam"
+}
